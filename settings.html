@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ReditTools Settings</title>
+  <style>
+    /* Reset and base */
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 40px 20px;
+      color: #222;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      background: white;
+      border-radius: 12px;
+      padding: 30px 40px;
+      max-width: 480px;
+      width: 100%;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+    }
+    .logo-container {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    .logo-container img {
+      height: 100px;
+      width: auto;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.08);
+      background: white;
+      padding: 12px;
+    }
+    h1 {
+      font-weight: 700;
+      font-size: 1.9rem;
+      margin-bottom: 24px;
+      text-align: center;
+      color: #111;
+    }
+    label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: #444;
+      font-size: 1rem;
+    }
+    input[type="number"], input[type="text"] {
+      width: 100%;
+      padding: 12px 14px;
+      font-size: 1rem;
+      border-radius: 8px;
+      border: 1.8px solid #ccc;
+      transition: border-color 0.25s ease;
+    }
+    input[type="number"]:focus, input[type="text"]:focus {
+      outline: none;
+      border-color: #0079d3;
+      box-shadow: 0 0 6px rgba(0, 121, 211, 0.35);
+    }
+    button {
+      margin-top: 30px;
+      width: 100%;
+      background-color: #0079d3;
+      border: none;
+      color: white;
+      font-size: 1.1rem;
+      padding: 14px 0;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: 700;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #005999;
+    }
+    .support-link {
+      margin-top: 24px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    .support-link a {
+      color: #0079d3;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .support-link a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo-container">
+      <img src="icons/reddittools-icon.png" alt="ReditTools Logo" />
+    </div>
+    <h1>ReditTools Settings</h1>
+
+    <label for="minDays">Hide accounts newer than (days):</label>
+    <input type="number" id="minDays" min="0" placeholder="e.g. 90" />
+
+    <label for="whitelist" style="margin-top: 20px;">Whitelisted usernames (comma separated):</label>
+    <input type="text" id="whitelist" placeholder="user1, user2, u/user3" />
+
+    <button id="save">Save</button>
+
+    <div class="support-link">
+      ❤️ If you find this useful, show your love and buy me a coffee on <a href="https://ko-fi.com/nachocr" target="_blank" rel="noopener noreferrer">Ko-fi</a>
+    </div>
+  </div>
+
+  <script src="settings.js"></script>
+</body>
+</html>
