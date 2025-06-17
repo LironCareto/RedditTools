@@ -1,6 +1,6 @@
-# ReditTools
+# RedditTools
 
-ReditTools is a Chrome extension that enhances the Reddit user experience by hiding posts and comments from accounts newer than a configurable number of days. Useful if your favorite subreddits are infested with bots.
+RedditTools is a Chrome extension that enhances the Reddit user experience by hiding posts and comments from accounts newer than a configurable number of days. Useful if your favorite subreddits are infested with bots.
 It also supports a whitelist of usernames to exclude from filtering.
 
 ## Features
@@ -15,7 +15,7 @@ It also supports a whitelist of usernames to exclude from filtering.
 1. Download or clone this repository.  
 2. Open Chrome and go to `chrome://extensions`.  
 3. Enable **Developer mode** (top right).  
-4. Click **Load unpacked** and select the `ReditTools` folder.  
+4. Click **Load unpacked** and select the `RedditTools` folder.  
 5. Configure settings via the extension popup or options page.  
 6. Enjoy cleaner Reddit browsing!
 
@@ -30,7 +30,7 @@ Contributions and suggestions are welcome! Feel free to open issues or pull requ
 
 ## Support
 
-If you find ReditTools useful, please consider supporting development on [Ko-fi](https://ko-fi.com/nachocr).
+If you find RedditTools useful, please consider supporting development on [Ko-fi](https://ko-fi.com/nachocr).
 
 ## License
 

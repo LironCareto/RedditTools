@@ -3,7 +3,7 @@
   "version": "1.0",
   "manifest_version": 3,
   "description": "Reddit Tools enhances the Reddit UX.",
-  "permissions": ["storage", "scripting"],
+  "permissions": ["storage"],
   "host_permissions": ["https://www.reddit.com/*"],
   "action": {
     "default_popup": "options.html",
